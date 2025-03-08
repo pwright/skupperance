@@ -35,6 +35,23 @@ def extract_commands(help_text):
     return commands
 
 
+def filter_help_text(help_text):
+    """Remove the 'Global Flags' section from the help text."""
+    lines = help_text.split("\n")
+    filtered_lines = []
+    skip = False
+
+    for line in lines:
+        if line.strip().startswith("Global Flags:"):
+            skip = True
+        if not skip:
+            filtered_lines.append(line)
+        if skip and line.strip() == "":
+            skip = False  # Stop skipping after a blank line (end of the section)
+
+    return "\n".join(filtered_lines).strip()
+
+
 def write_markdown(platform, command_path, help_text, subcommands):
     """Write the help text as a Markdown file and include links to subcommands."""
     platform_dir = os.path.join(OUTPUT_DIR, platform)
@@ -43,9 +60,11 @@ def write_markdown(platform, command_path, help_text, subcommands):
     filename = command_path.replace(" ", "_") + ".md"
     filepath = os.path.join(platform_dir, filename)
 
+    filtered_text = filter_help_text(help_text)  # Remove Global Flags
+
     with open(filepath, "w", encoding="utf-8") as f:
-        f.write(f"# `{command_path}` Command Reference ({platform})\n\n")
-        f.write(f"```\n{help_text}\n```\n")
+        f.write(f"# `{command_path}` Command Reference\n\n")  # Removed platform from header
+        f.write(f"```\n{filtered_text}\n```\n")
 
         if subcommands:
             f.write("\n## Subcommands\n")

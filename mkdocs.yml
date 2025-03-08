@@ -12,7 +12,16 @@ docs_dir: docs
 site_dir: output
 
 nav:
-  - Overview: skupper.md
+  - Kubernetes: kubernetes/skupper.md
+  - Podman: podman/skupper.md
+  - Diffs: diffs/kubernetes-podman.md
 
 plugins:
   - search
+
+extra_css:
+  - stylesheets/extra.css
+markdown_extensions:
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.superfences
