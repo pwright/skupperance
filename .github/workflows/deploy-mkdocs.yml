@@ -3,13 +3,11 @@ name: Deploy MkDocs Site
 on:
   push:
     branches:
-      - main  # Change this if your default branch is different
-  workflow_dispatch:  # Allows manual triggering of the workflow
+      - main
+  workflow_dispatch:
 
 permissions:
-  contents: read
-  pages: write
-  id-token: write
+  contents: write  # This allows GITHUB_TOKEN to push commits
 
 jobs:
   deploy:
