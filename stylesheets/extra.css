@@ -1,0 +1,14 @@
+/* Increase the max width of the content */
+.md-grid {
+    max-width: 90vw; /* Adjust as needed */
+}
+
+/* Adjust for wider tables and code blocks */
+.md-typeset table {
+    width: 100%;
+}
+
+.md-typeset pre {
+    white-space: pre-wrap;
+    overflow-x: auto;
+}
