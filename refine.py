@@ -3,7 +3,14 @@ import subprocess
 import re
 
 BASE_COMMAND = "skupper"
-PLATFORMS = ["kubernetes", "podman"]
+PLATFORMS = {
+    "kubernetes": "kubernetes",
+    "podman": "local systems"  # Rename podman to "local systems" in docs
+}
+DIR_NAMES = {
+    "kubernetes": "kubernetes",
+    "podman": "local-systems"  # Rename podman directory to "local-systems"
+}
 OUTPUT_DIR = "docs"
 
 
@@ -54,7 +61,7 @@ def filter_help_text(help_text):
 
 def write_markdown(platform, command_path, help_text, subcommands):
     """Write the help text as a Markdown file and include links to subcommands."""
-    platform_dir = os.path.join(OUTPUT_DIR, platform)
+    platform_dir = os.path.join(OUTPUT_DIR, DIR_NAMES[platform])  # Use mapped directory names
     os.makedirs(platform_dir, exist_ok=True)
 
     filename = command_path.replace(" ", "_") + ".md"
@@ -63,7 +70,7 @@ def write_markdown(platform, command_path, help_text, subcommands):
     filtered_text = filter_help_text(help_text)  # Remove Global Flags
 
     with open(filepath, "w", encoding="utf-8") as f:
-        f.write(f"# `{command_path}` Command Reference\n\n")  # Removed platform from header
+        f.write(f"# `{command_path}` Command Reference\n\n")  # No platform in header
         f.write(f"```\n{filtered_text}\n```\n")
 
         if subcommands:
@@ -99,8 +106,8 @@ def process_command(platform, command_path, visited):
 
 def main():
     visited = set()
-    for platform in PLATFORMS:
-        print(f"Processing documentation for platform: {platform}")
+    for platform in PLATFORMS.keys():  # Only process "kubernetes" and "podman"
+        print(f"Processing documentation for platform: {PLATFORMS[platform]}")
         process_command(platform, BASE_COMMAND, visited)
 
     print(f"Documentation saved in `{OUTPUT_DIR}/` under platform-specific directories.")

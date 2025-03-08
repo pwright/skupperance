@@ -1,4 +1,4 @@
-site_name: Skupper docs
+site_name: Skupper CLI reference
 
 theme:
   name: material
@@ -13,8 +13,8 @@ site_dir: output
 
 nav:
   - Kubernetes: kubernetes/skupper.md
-  - Podman: podman/skupper.md
-  - Diffs: diffs/kubernetes-podman.md
+  - Local systems: local-systems/skupper.md
+  - Diffs: diffs/kubernetes-local-systems.md
 
 plugins:
   - search
