@@ -1,0 +1,18 @@
+site_name: Skupper docs
+
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - content.tabs.link
+    - navigation.sections
+
+docs_dir: docs
+site_dir: output
+
+nav:
+  - Overview: skupper.md
+
+plugins:
+  - search
