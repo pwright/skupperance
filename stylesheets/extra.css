@@ -12,3 +12,9 @@
     white-space: pre-wrap;
     overflow-x: auto;
 }
+
+
+/* Optional: Change background */
+.url-matched .md-content {
+    background-color: #ddfbfc;
+}
