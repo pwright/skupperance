@@ -29,3 +29,6 @@ Flags:
   -h, --help              help for bash
       --no-descriptions   disable completion descriptions
 ```
+
+🔗 **External Documentation:** [https://skupperproject.github.io/refdog/commands/completion/bash.html](https://skupperproject.github.io/refdog/commands/completion/bash.html)
+

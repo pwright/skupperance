@@ -12,3 +12,6 @@ skupper system reload -n my-namespace
 Flags:
   -h, --help   help for reload
 ```
+
+🔗 **External Documentation:** [https://skupperproject.github.io/refdog/commands/system/reload.html](https://skupperproject.github.io/refdog/commands/system/reload.html)
+

@@ -20,3 +20,6 @@ Flags:
   -h, --help              help for fish
       --no-descriptions   disable completion descriptions
 ```
+
+🔗 **External Documentation:** [https://skupperproject.github.io/refdog/commands/completion/fish.html](https://skupperproject.github.io/refdog/commands/completion/fish.html)
+

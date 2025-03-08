@@ -21,3 +21,6 @@ Flags:
   -o, --output string             print resources to the console instead of submitting them to the Skupper controller. Choices: json, yaml (default "yaml")
       --service-account string    the Kubernetes service account under which to run the Skupper controller
 ```
+
+🔗 **External Documentation:** [https://skupperproject.github.io/refdog/commands/site/generate.html](https://skupperproject.github.io/refdog/commands/site/generate.html)
+

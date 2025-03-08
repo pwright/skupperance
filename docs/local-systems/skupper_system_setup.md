@@ -40,3 +40,6 @@ Flags:
       --path string       Custom resources location on the file system
   -b, --strategy string   The bundle strategy to be produced. Choices: bundle, tarball
 ```
+
+🔗 **External Documentation:** [https://skupperproject.github.io/refdog/commands/system/setup.html](https://skupperproject.github.io/refdog/commands/system/setup.html)
+

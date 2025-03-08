@@ -10,3 +10,6 @@ Usage:
 Flags:
   -h, --help   help for help
 ```
+
+🔗 **External Documentation:** [https://skupperproject.github.io/refdog/commands/help.html](https://skupperproject.github.io/refdog/commands/help.html)
+

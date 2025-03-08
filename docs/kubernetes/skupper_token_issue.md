@@ -16,3 +16,6 @@ Flags:
   -r, --redemptions-allowed int      The number of times an access token for this grant can be redeemed. (default 1)
   -t, --timeout duration             raise an error if the operation does not complete in the given period of time (expressed in seconds). (default 1m0s)
 ```
+
+🔗 **External Documentation:** [https://skupperproject.github.io/refdog/commands/token/issue.html](https://skupperproject.github.io/refdog/commands/token/issue.html)
+

@@ -17,3 +17,6 @@ Flags:
       --tls-credentials string   the name of a Kubernetes secret containing the generated or externally-supplied TLS credentials.
       --type string              The connector type. Choices: [tcp]. (default "tcp")
 ```
+
+🔗 **External Documentation:** [https://skupperproject.github.io/refdog/commands/connector/create.html](https://skupperproject.github.io/refdog/commands/connector/create.html)
+

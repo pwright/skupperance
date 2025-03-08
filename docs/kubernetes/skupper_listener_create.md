@@ -18,3 +18,6 @@ Flags:
       --type string              The listener type. Choices: [tcp]. (default "tcp")
       --wait string              Wait for the given status before exiting. Choices: configured, ready, none (default "configured")
 ```
+
+🔗 **External Documentation:** [https://skupperproject.github.io/refdog/commands/listener/create.html](https://skupperproject.github.io/refdog/commands/listener/create.html)
+

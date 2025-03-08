@@ -22,6 +22,9 @@ Flags:
 Use "skupper link [command] --help" for more information about a command.
 ```
 
+🔗 **External Documentation:** [https://skupperproject.github.io/refdog/commands/link/](https://skupperproject.github.io/refdog/commands/link/)
+
+
 ## Subcommands
 - [delete](./skupper_link_delete.md)
 - [generate](./skupper_link_generate.md)

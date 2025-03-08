@@ -17,3 +17,6 @@ Flags:
   -h, --help              help for powershell
       --no-descriptions   disable completion descriptions
 ```
+
+🔗 **External Documentation:** [https://skupperproject.github.io/refdog/commands/completion/powershell.html](https://skupperproject.github.io/refdog/commands/completion/powershell.html)
+

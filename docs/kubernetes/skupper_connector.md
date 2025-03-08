@@ -23,6 +23,9 @@ Flags:
 Use "skupper connector [command] --help" for more information about a command.
 ```
 
+🔗 **External Documentation:** [https://skupperproject.github.io/refdog/commands/connector/](https://skupperproject.github.io/refdog/commands/connector/)
+
+
 ## Subcommands
 - [create](./skupper_connector_create.md)
 - [delete](./skupper_connector_delete.md)

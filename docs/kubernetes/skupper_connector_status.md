@@ -13,3 +13,6 @@ Flags:
   -h, --help            help for status
   -o, --output string   print status of connectors Choices: json, yaml
 ```
+
+🔗 **External Documentation:** [https://skupperproject.github.io/refdog/commands/connector/status.html](https://skupperproject.github.io/refdog/commands/connector/status.html)
+

@@ -10,3 +10,6 @@ Flags:
   -f, --force   option to override even with sites present
   -h, --help    help for uninstall
 ```
+
+🔗 **External Documentation:** [https://skupperproject.github.io/refdog/commands/system/uninstall.html](https://skupperproject.github.io/refdog/commands/system/uninstall.html)
+

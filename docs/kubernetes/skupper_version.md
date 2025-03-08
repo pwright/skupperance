@@ -14,3 +14,6 @@ Flags:
   -h, --help            help for version
   -o, --output string   print verbose output to the console. Choices: json, yaml
 ```
+
+🔗 **External Documentation:** [https://skupperproject.github.io/refdog/commands/version.html](https://skupperproject.github.io/refdog/commands/version.html)
+

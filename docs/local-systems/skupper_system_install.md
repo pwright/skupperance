@@ -11,3 +11,6 @@ Usage:
 Flags:
   -h, --help   help for install
 ```
+
+🔗 **External Documentation:** [https://skupperproject.github.io/refdog/commands/system/install.html](https://skupperproject.github.io/refdog/commands/system/install.html)
+

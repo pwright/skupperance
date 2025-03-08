@@ -25,6 +25,9 @@ Flags:
 Use "skupper system [command] --help" for more information about a command.
 ```
 
+🔗 **External Documentation:** [https://skupperproject.github.io/refdog/commands/system/](https://skupperproject.github.io/refdog/commands/system/)
+
+
 ## Subcommands
 - [install](./skupper_system_install.md)
 - [reload](./skupper_system_reload.md)

@@ -12,3 +12,6 @@ skupper system teardown -n my-namespace
 Flags:
   -h, --help   help for teardown
 ```
+
+🔗 **External Documentation:** [https://skupperproject.github.io/refdog/commands/system/teardown.html](https://skupperproject.github.io/refdog/commands/system/teardown.html)
+

@@ -16,3 +16,6 @@ Flags:
       --tls-credentials string   the name of a Kubernetes secret containing the generated or externally-supplied TLS credentials.
       --type string              The listener type. Choices: [tcp]. (default "tcp")
 ```
+
+🔗 **External Documentation:** [https://skupperproject.github.io/refdog/commands/listener/create.html](https://skupperproject.github.io/refdog/commands/listener/create.html)
+

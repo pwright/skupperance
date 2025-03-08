@@ -31,3 +31,6 @@ Flags:
   -h, --help              help for zsh
       --no-descriptions   disable completion descriptions
 ```
+
+🔗 **External Documentation:** [https://skupperproject.github.io/refdog/commands/completion/zsh.html](https://skupperproject.github.io/refdog/commands/completion/zsh.html)
+

@@ -23,3 +23,6 @@ Flags:
       --wait string              Wait for the given status before exiting. Choices: configured, ready, none (default "configured")
   -w, --workload string          A Kubernetes resource name that identifies a workload expressed like resource-type/resource-name. Expected resource types: service, daemonset, deployment, and statefulset.
 ```
+
+🔗 **External Documentation:** [https://skupperproject.github.io/refdog/commands/connector/update.html](https://skupperproject.github.io/refdog/commands/connector/update.html)
+

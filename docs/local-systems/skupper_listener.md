@@ -23,6 +23,9 @@ Flags:
 Use "skupper listener [command] --help" for more information about a command.
 ```
 
+🔗 **External Documentation:** [https://skupperproject.github.io/refdog/commands/listener/](https://skupperproject.github.io/refdog/commands/listener/)
+
+
 ## Subcommands
 - [create](./skupper_listener_create.md)
 - [delete](./skupper_listener_delete.md)

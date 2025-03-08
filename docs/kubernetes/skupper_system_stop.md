@@ -12,3 +12,6 @@ skupper system stop -n my-namespace
 Flags:
   -h, --help   help for stop
 ```
+
+🔗 **External Documentation:** [https://skupperproject.github.io/refdog/commands/system/stop.html](https://skupperproject.github.io/refdog/commands/system/stop.html)
+

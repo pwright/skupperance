@@ -22,3 +22,6 @@ Flags:
   -o, --output string                       print resources to the console instead of submitting them to the Skupper controller. Choices: json, yaml (default "yaml")
       --subject-alternative-names strings   Add subject alternative names for the router access in non kubernetes environments
 ```
+
+🔗 **External Documentation:** [https://skupperproject.github.io/refdog/commands/site/generate.html](https://skupperproject.github.io/refdog/commands/site/generate.html)
+

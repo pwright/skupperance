@@ -21,3 +21,6 @@ Flags:
       --timeout duration          raise an error if the operation does not complete in the given period of time (expressed in seconds). (default 3m0s)
       --wait string               Wait for the given status before exiting. Choices: configured, ready, none (default "ready")
 ```
+
+🔗 **External Documentation:** [https://skupperproject.github.io/refdog/commands/site/create.html](https://skupperproject.github.io/refdog/commands/site/create.html)
+

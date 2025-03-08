@@ -12,3 +12,6 @@ Flags:
       --timeout duration         raise an error if the operation does not complete in the given period of time (expressed in seconds). (default 1m0s)
       --tls-credentials string   the name of a Kubernetes secret containing the generated or externally-supplied TLS credentials.
 ```
+
+🔗 **External Documentation:** [https://skupperproject.github.io/refdog/commands/link/update.html](https://skupperproject.github.io/refdog/commands/link/update.html)
+

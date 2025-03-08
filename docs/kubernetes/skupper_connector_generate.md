@@ -21,3 +21,6 @@ Flags:
       --type string              The connector type. Choices: [tcp]. (default "tcp")
   -w, --workload string          A Kubernetes resource name that identifies a workload expressed like resource-type/resource-name. Expected resource types: service, daemonset, deployment, and statefulset.
 ```
+
+🔗 **External Documentation:** [https://skupperproject.github.io/refdog/commands/connector/generate.html](https://skupperproject.github.io/refdog/commands/connector/generate.html)
+

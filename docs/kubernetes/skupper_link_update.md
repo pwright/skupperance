@@ -13,3 +13,6 @@ Flags:
       --tls-credentials string   the name of a Kubernetes secret containing the generated or externally-supplied TLS credentials.
       --wait string              Wait for the given status before exiting. Choices: configured, ready, none (default "ready")
 ```
+
+🔗 **External Documentation:** [https://skupperproject.github.io/refdog/commands/link/update.html](https://skupperproject.github.io/refdog/commands/link/update.html)
+

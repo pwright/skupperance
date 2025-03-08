@@ -19,3 +19,6 @@ Flags:
       --subject-alternative-names strings   Add subject alternative names for the router access in non kubernetes environments
       --timeout duration                    raise an error if the operation does not complete in the given period of time (expressed in seconds). (default 30s)
 ```
+
+🔗 **External Documentation:** [https://skupperproject.github.io/refdog/commands/site/update.html](https://skupperproject.github.io/refdog/commands/site/update.html)
+

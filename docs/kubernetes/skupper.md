@@ -29,6 +29,9 @@ Flags:
 Use "skupper [command] --help" for more information about a command.
 ```
 
+🔗 **External Documentation:** [https://skupperproject.github.io/refdog/commands//](https://skupperproject.github.io/refdog/commands//)
+
+
 ## Subcommands
 - [completion](./skupper_completion.md)
 - [connector](./skupper_connector.md)

@@ -22,6 +22,9 @@ Flags:
 Use "skupper token [command] --help" for more information about a command.
 ```
 
+🔗 **External Documentation:** [https://skupperproject.github.io/refdog/commands/token/](https://skupperproject.github.io/refdog/commands/token/)
+
+
 ## Subcommands
 - [issue](./skupper_token_issue.md)
 - [redeem](./skupper_token_redeem.md)

@@ -19,6 +19,9 @@ Flags:
 Use "skupper completion [command] --help" for more information about a command.
 ```
 
+🔗 **External Documentation:** [https://skupperproject.github.io/refdog/commands/completion/](https://skupperproject.github.io/refdog/commands/completion/)
+
+
 ## Subcommands
 - [bash](./skupper_completion_bash.md)
 - [fish](./skupper_completion_fish.md)

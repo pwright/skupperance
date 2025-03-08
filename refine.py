@@ -12,6 +12,7 @@ DIR_NAMES = {
     "podman": "local-systems"  # Rename podman directory to "local-systems"
 }
 OUTPUT_DIR = "docs"
+EXTERNAL_REF_URL = "https://skupperproject.github.io/refdog/commands/"
 
 
 def run_command(command):
@@ -59,8 +60,19 @@ def filter_help_text(help_text):
     return "\n".join(filtered_lines).strip()
 
 
+def generate_external_link(command_path, has_subcommands):
+    """Generate an external reference link for the command.
+    - If the command has subcommands, use a directory-style URL (`/`).
+    - If the command has no subcommands, use `.html`."""
+    parts = command_path.split()
+    if parts[0] == "skupper":
+        parts.pop(0)  # Remove 'skupper' from the path
+    url_path = "/".join(parts)
+    return f"{EXTERNAL_REF_URL}{url_path}/" if has_subcommands else f"{EXTERNAL_REF_URL}{url_path}.html"
+
+
 def write_markdown(platform, command_path, help_text, subcommands):
-    """Write the help text as a Markdown file and include links to subcommands."""
+    """Write the help text as a Markdown file and include links to subcommands & external references."""
     platform_dir = os.path.join(OUTPUT_DIR, DIR_NAMES[platform])  # Use mapped directory names
     os.makedirs(platform_dir, exist_ok=True)
 
@@ -68,10 +80,14 @@ def write_markdown(platform, command_path, help_text, subcommands):
     filepath = os.path.join(platform_dir, filename)
 
     filtered_text = filter_help_text(help_text)  # Remove Global Flags
+    external_link = generate_external_link(command_path, bool(subcommands))
 
     with open(filepath, "w", encoding="utf-8") as f:
         f.write(f"# `{command_path}` Command Reference\n\n")  # No platform in header
         f.write(f"```\n{filtered_text}\n```\n")
+
+        # External reference link
+        f.write(f"\n🔗 **External Documentation:** [{external_link}]({external_link})\n\n")
 
         if subcommands:
             f.write("\n## Subcommands\n")

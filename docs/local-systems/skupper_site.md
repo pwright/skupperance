@@ -23,6 +23,9 @@ Flags:
 Use "skupper site [command] --help" for more information about a command.
 ```
 
+🔗 **External Documentation:** [https://skupperproject.github.io/refdog/commands/site/](https://skupperproject.github.io/refdog/commands/site/)
+
+
 ## Subcommands
 - [create](./skupper_site_create.md)
 - [delete](./skupper_site_delete.md)
